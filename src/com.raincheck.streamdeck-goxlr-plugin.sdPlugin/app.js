@@ -1,7 +1,7 @@
 /// <reference path="libs/js/action.js" />
 /// <reference path="libs/js/stream-deck.js" />
 
-const myAction = new Action('com.elgato.template.action');
+const myAction = new Action('com.raincheck.streamdeck-goxlr-plugin.action');
 
 /**
  * The first event fired when Stream Deck starts
@@ -16,4 +16,12 @@ myAction.onKeyUp(({ action, context, device, event, payload }) => {
 
 myAction.onDialRotate(({ action, context, device, event, payload }) => {
 	console.log('Your dial code goes here!');
+});
+
+myAction.onDialDown(({ action, context, device, event, payload}) => {
+	console.log(`Your dial down code here`);
+});
+
+myAction.onTouchTap(({ action, context, device, event, payload}) => {
+	console.log(`Your tap code here`);
 });

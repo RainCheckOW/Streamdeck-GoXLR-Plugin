@@ -1,26 +1,22 @@
 {
 	"SDKVersion": 2,
-	"Author": "Elgato Systems",
+	"Author": "RainCheck",
 	"CodePath": "app.html",
-	"Description": "Example description",
-	"Name": "Stream Deck Template",
+	"Description": "Plugin to interface with the open source GoXLR utility.",
+	"Name": "GoXLR Utilty Plugin",
 	"Icon": "actions/template/assets/action",
-	"URL": "https://www.elgato.com/en/gaming/stream-deck",
+	"URL": "",
 	"Version": "1.0.2",
 	"Software": {
 		"MinimumVersion": "5.0"
 	},
 	"OS": [
 		{
-			"Platform": "mac",
-			"MinimumVersion": "10.11"
-		},
-		{
 			"Platform": "windows",
 			"MinimumVersion": "10"
 		}
 	],
-	"Category": "Template Plugin",
+	"Category": "GoXLR Utility",
 	"CategoryIcon": "actions/template/assets/actionimage",
 	"Actions": [
 		{
@@ -42,7 +38,7 @@
 				}
 			],
 			"Tooltip": "This is an example tooltip",
-			"UUID": "com.elgato.template.action",
+			"UUID": "com.raincheck.streamdeck-goxlr-plugin.action",
 			"PropertyInspectorPath": "actions/template/property-inspector/inspector.html"
 		}
 	]
